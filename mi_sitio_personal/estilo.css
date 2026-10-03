@@ -1,16 +1,20 @@
 /* Estilos del mini sitio */
 body{
-    background-color: beige;
+    background-color: rgb(14, 14, 14);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    color: rgb(255, 255, 255);
 }
 h1{
     font-size: 50px;
-    color: beige;
+    color: rgb(255, 0, 136);
 }
 h2{
     font-size: 25px;
-    color: beige;
+    color: coral;
+}
+.tarjeta h3{
+    color: rgb(255, 139, 67);
 }
 .tarjeta{
     background-color: #a559b8;
@@ -18,20 +22,26 @@ h2{
     border:#a7a7a7 solid 3px;
     border-radius: 10px;
 }
-.tarjeta h3{
-    color: palegoldenrod;
-}
 nav a:hover,
-nav a:focus,
-nav a:active{
+nav a:focus{
     border: solid purple 3px;
     outline: auto;
     background-color: #a559b8;
     color: beige;
 }
+nav ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+}
 nav a{
     color: magenta;
     text-decoration: none;
+}
+nav a.activa{
+    color: blue;
+    font-weight: 700;
 }
 .enlaces{
     color: magenta;
