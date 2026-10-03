@@ -1,6 +1,6 @@
 /* Estilos del mini sitio */
 body{
-    background-color: #4d4d4d;
+    background-color: beige;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
@@ -13,7 +13,10 @@ h2{
     color: beige;
 }
 .tarjeta{
-    background-color: #544458;
+    background-color: #a559b8;
+    padding: 16px;
+    border:#a7a7a7 solid 3px;
+    border-radius: 10px;
 }
 .tarjeta h3{
     color: palegoldenrod;
@@ -21,11 +24,14 @@ h2{
 nav a:hover,
 nav a:focus,
 nav a:active{
-    border: solid blue 3px;
+    border: solid purple 3px;
     outline: auto;
+    background-color: #a559b8;
+    color: beige;
 }
 nav a{
-    color: aquamarine;
+    color: magenta;
+    text-decoration: none;
 }
 .enlaces{
     color: magenta;
@@ -36,4 +42,23 @@ textarea:focus,
 button:focus{
     border: solid blue 3px;
     outline: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.texto {
+    flex: 1;
 }
